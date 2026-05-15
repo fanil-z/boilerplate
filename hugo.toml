@@ -1,0 +1,8 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Diagram Site"
+
+[markup]
+	[markup.goldmark]
+		[markup.goldmark.renderer]
+			unsafe = true

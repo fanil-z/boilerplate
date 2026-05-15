@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Development Journey | Diagram Site</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f8f7f4;
+      --text: #141414;
+      --surface: #ffffff;
+      --border: #d9d6cf;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background:
+        radial-gradient(circle at 10% 10%, #efe9da 0%, transparent 40%),
+        radial-gradient(circle at 90% 20%, #e3f0e8 0%, transparent 35%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    main {
+      max-width: 1100px;
+      margin: 2rem auto;
+      background: color-mix(in srgb, var(--surface) 94%, transparent);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.25rem 1.5rem 2rem;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+    }
+    h1 {
+      margin-top: 0;
+      letter-spacing: 0.01em;
+      font-size: clamp(1.5rem, 2.5vw, 2rem);
+    }
+    a { color: inherit; }
+  </style>
+</head>
+<body>
+  <main>
+    
+  <h1>Development Journey</h1>
+  <style>
+text-wbg {
+  background-color: #5beeb7a6;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-weight: 600;
+  margin-bottom: 4rem !important;
+}
+ul li {
+  margin-bottom: .5rem;
+}
+mid-width {
+  display: inline-block;
+  max-width: 60rem;
+}
+svg#journey {
+  max-height: 760px !important;
+  max-width: 1040px !important;
+  margin-left: 0;
+}
+svg#journey text {
+  font-family: "Avenir Next", "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif !important;
+}
+g[id^="frame-link"]:hover text {
+  fill: rgb(255, 255, 255);
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+g#step1:hover rect#step-rect-1,
+g#step2:hover rect#step-rect-2,
+g#step3:hover rect#step-rect-3,
+g#step4:hover rect#step-rect-4 {
+  fill: url(#rainbowGradient);
+  transition: fill 1s ease-in-out;
+}
+g[id^="frame-link"]:hover rect {
+  fill: black !important;
+  fill-opacity: 80%;
+  rx: 8;
+  ry: 8;
+}
+g[id^="frame-link"]:hover {
+  cursor: pointer;
+}
+</style>
+<p>This section provides a step-by-step guide on how to develop and release apps.</p>
+<svg id="journey" width="2618" height="1758" viewBox="0 0 2618 1758" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="2618" height="1758" fill="none"/>
+<defs>
+    <linearGradient id="rainbowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="25%" stop-color="#CAFFBF"/>  <!-- Soft Green -->
+        <stop offset="50%" stop-color="#9BF6FF"/>  <!-- Soft Blue -->
+        <stop offset="75%" stop-color="#A0C4FF"/>  <!-- Soft Indigo -->
+        <stop offset="100%" stop-color="#BDB2FF"/>  <!-- Soft Violet -->
+    </linearGradient>
+</defs>
+<g id="app-dev-journey">
+<g id="step4">
+<rect id="step-rect-4" x="1014" y="1199" width="1604" height="548" rx="20" fill="#E7E6E2"/>
+<path id="Line 18" d="M2416.5 1539L1000 1541" stroke="black" stroke-width="8"/>
+<circle id="pin" cx="1915.5" cy="1542.42" r="30" fill="#F2F2F2" stroke="black" stroke-width="5"/>
+<a href="./example-link/"><text id="9" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="30" letter-spacing="0em"><tspan x="1904" y="1552.83">9</tspan></text></a>
+<circle id="pin_2" cx="2404" cy="1542.92" r="27.5" fill="#F2F2F2" stroke="black" stroke-width="5"/>
+<a href="./example-link/"><text id="10" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="30" letter-spacing="0em"><tspan x="2388" y="1552.83">10</tspan></text></a>
+<g id="frame-link">
+<rect width="382" height="54" transform="translate(1417 1638)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="28" letter-spacing="0em"><tspan x="1427" y="1675.18">App review: FOSS, Security</tspan></text></a>
+</g>
+<g id="frame-link_2">
+<rect width="338" height="54" transform="translate(1417 1586)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text1-3" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="28" letter-spacing="0em"><tspan x="1427" y="1623.18">Release Process (XXXX)</tspan></text></a>
+</g>
+<circle id="pin_3" cx="1376.5" cy="1542.42" r="30" fill="#F2F2F2" stroke="black" stroke-width="5"/>
+<a href="./example-link/"><text id="8" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="30" letter-spacing="0em"><tspan x="1366" y="1552.91">8</tspan></text></a>
+<g id="frame-link_3">
+<rect width="309" height="136" transform="translate(1045 1223)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text-step1" fill="#737272" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="48" font-weight="600" letter-spacing="0em"><tspan x="1055" y="1279.45">Review and </tspan><tspan x="1055" y="1337.45">release</tspan></text></a>
+</g>
+<g id="frame-link_4">
+<rect width="302" height="112" transform="translate(1340 1380)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text-step1_2" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="38" font-weight="600" letter-spacing="0em"><tspan x="1350" y="1426.82">Go through </tspan><tspan x="1350" y="1472.82">review process</tspan></text></a>
+</g>
+<g id="frame-link_5">
+<rect width="255" height="112" transform="translate(1873 1380)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text-step1_3" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="38" font-weight="600" letter-spacing="0em"><tspan x="1883" y="1426.82">Submit app </tspan><tspan x="1883" y="1472.82">changes</tspan></text></a>
+</g>
+<g id="frame-link_6">
+<rect width="193" height="112" transform="translate(2399 1382)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text-step1_4" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="38" font-weight="600" letter-spacing="0em"><tspan x="2409" y="1428.82">Release &#x2028;</tspan><tspan x="2409" y="1474.82">your app!</tspan></text></a>
+</g>
+<g id="box-seam 1" clip-path="url(#clip0_0_1)">
+<path id="Vector" d="M2340.35 1413.08C2339.8 1412.86 2339.2 1412.86 2338.65 1413.08L2311.42 1423.97L2322.39 1428.35L2350.47 1417.13L2340.35 1413.08ZM2356.61 1419.58L2328.53 1430.81L2339.5 1435.2L2367.58 1423.97L2356.61 1419.58ZM2371.44 1427.34L2341.78 1439.2V1475.35L2371.44 1463.48V1427.34ZM2337.22 1475.35V1439.2L2307.56 1427.34V1463.49L2337.22 1475.35ZM2336.96 1408.84C2338.59 1408.19 2340.41 1408.19 2342.04 1408.84L2374.57 1421.85C2374.99 1422.02 2375.35 1422.31 2375.61 1422.69C2375.86 1423.07 2376 1423.51 2376 1423.97V1463.49C2376 1464.4 2375.73 1465.29 2375.21 1466.05C2374.7 1466.8 2373.98 1467.38 2373.13 1467.72L2340.35 1480.84C2339.8 1481.05 2339.2 1481.05 2338.65 1480.84L2305.87 1467.72C2305.03 1467.39 2304.3 1466.8 2303.79 1466.05C2303.28 1465.29 2303 1464.4 2303 1463.49V1423.97C2303 1423.51 2303.14 1423.07 2303.39 1422.69C2303.65 1422.31 2304.01 1422.02 2304.43 1421.85L2336.96 1408.84Z" fill="black"/>
+</g>
+<path id="Line 49" d="M1377 1573L1377 1613.5L1407.5 1613.5" stroke="black"/>
+<path id="Line 50" d="M1377 1613.5L1377 1663.5L1407.5 1663.5" stroke="black"/>
+</g>
+<line id="Line 34" x1="3.5" y1="-3.5" x2="46.7195" y2="-3.5" transform="matrix(-0.577705 0.816245 0.816245 0.577705 476 1158.56)" stroke="black" stroke-width="7" stroke-linecap="round"/>
+<line id="Line 33" x1="420.878" y1="1159.38" x2="445.826" y2="1194.67" stroke="black" stroke-width="7" stroke-linecap="round"/>
+<g id="step3">
+<rect id="step-rect-3" y="1197" width="974" height="541" rx="20" fill="#E7E6E2"/>
+<g id="frame-link_7">
+<rect width="496" height="112" transform="translate(477 1374)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text-step1_5" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="38" font-weight="600" letter-spacing="0em"><tspan x="487" y="1420.82">Test app on bench or car </tspan><tspan x="487" y="1466.82">using XXX</tspan></text></a>
+</g>
+<path id="Line 17" d="M445.494 1164.65L445.526 1491C445.529 1518.61 467.913 1540.99 495.526 1540.99L1001 1541" stroke="black" stroke-width="8"/>
+<circle id="pin_4" cx="562.5" cy="1540.11" r="30" fill="#F2F2F2" stroke="black" stroke-width="5"/>
+<a href="./example-link/"><text id="7" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="30" letter-spacing="0em"><tspan x="554" y="1550.52">7</tspan></text></a>
+<path id="Vector_2" d="M271.21 1599L271.899 1595.02C271.945 1594.76 271.929 1594.56 271.851 1594.42C271.766 1594.3 271.701 1594.36 271.657 1594.6L270.959 1598.61C270.345 1597.75 269.681 1597.32 269.01 1597.33C268.324 1597.33 267.675 1597.75 267.061 1598.6L266.363 1594.59C266.318 1594.36 266.253 1594.3 266.169 1594.42C266.091 1594.57 266.075 1594.77 266.12 1595.03L266.809 1599C266.132 1600.05 265.556 1601.66 265.142 1603.66C264.734 1605.59 264.517 1607.87 264.521 1610.19H273.489C273.489 1607.83 273.282 1605.65 272.869 1603.66C272.456 1601.67 271.883 1600.06 271.21 1599V1599ZM267.231 1604.78C267.197 1604.89 267.155 1604.97 267.109 1605.03C267.064 1605.09 267.015 1605.12 266.965 1605.12C266.916 1605.13 266.868 1605.1 266.823 1605.04C266.777 1604.98 266.737 1604.89 266.703 1604.78C266.669 1604.67 266.642 1604.54 266.623 1604.39C266.605 1604.25 266.596 1604.1 266.596 1603.94C266.596 1603.79 266.605 1603.63 266.623 1603.49C266.642 1603.35 266.669 1603.22 266.703 1603.11C266.737 1602.99 266.777 1602.91 266.823 1602.85C266.868 1602.79 266.916 1602.76 266.965 1602.76C267.068 1602.76 267.157 1602.88 267.231 1603.11C267.267 1603.21 267.295 1603.34 267.315 1603.49C267.334 1603.63 267.343 1603.79 267.343 1603.94C267.343 1604.1 267.334 1604.25 267.314 1604.4C267.295 1604.54 267.267 1604.67 267.231 1604.78ZM271.318 1604.78C271.285 1604.89 271.244 1604.98 271.199 1605.04C271.154 1605.1 271.106 1605.13 271.057 1605.12C271.007 1605.12 270.958 1605.09 270.912 1605.04C270.866 1604.98 270.825 1604.89 270.79 1604.78C270.754 1604.67 270.726 1604.54 270.707 1604.4C270.688 1604.25 270.678 1604.1 270.678 1603.94C270.678 1603.62 270.715 1603.34 270.79 1603.11C270.825 1603 270.866 1602.91 270.912 1602.85C270.958 1602.79 271.007 1602.76 271.057 1602.76C271.16 1602.76 271.247 1602.88 271.318 1603.11C271.352 1603.22 271.38 1603.35 271.398 1603.49C271.416 1603.63 271.425 1603.79 271.425 1603.94C271.425 1604.26 271.389 1604.54 271.318 1604.78ZM264.521 1631.48C264.521 1632.41 264.624 1633.2 264.831 1633.84C265.037 1634.49 265.29 1634.81 265.588 1634.81H266.343L266.353 1641.69C266.353 1642.57 266.45 1643.3 266.644 1643.91C266.735 1644.21 266.844 1644.44 266.964 1644.59C267.084 1644.75 267.212 1644.83 267.342 1644.82C267.473 1644.83 267.604 1644.75 267.725 1644.6C267.847 1644.44 267.957 1644.21 268.049 1643.91C268.144 1643.63 268.218 1643.28 268.268 1642.9C268.318 1642.52 268.343 1642.11 268.34 1641.69V1634.81H269.679V1641.69C269.679 1642.57 269.776 1643.3 269.97 1643.91C270.062 1644.21 270.172 1644.44 270.294 1644.6C270.416 1644.75 270.546 1644.83 270.677 1644.82C270.808 1644.83 270.939 1644.75 271.061 1644.6C271.182 1644.44 271.293 1644.21 271.385 1643.91C271.479 1643.63 271.553 1643.28 271.604 1642.9C271.654 1642.52 271.678 1642.11 271.676 1641.69V1634.81H272.433C272.723 1634.81 272.972 1634.49 273.18 1633.84C273.385 1633.2 273.489 1632.41 273.489 1631.48V1611.28H264.521V1631.48ZM274.979 1610.7C274.85 1610.7 274.722 1610.77 274.602 1610.92C274.482 1611.07 274.372 1611.3 274.28 1611.58C274.185 1611.85 274.11 1612.19 274.06 1612.56C274.009 1612.93 273.985 1613.34 273.988 1613.74V1626.56C273.988 1627.41 274.085 1628.14 274.28 1628.73C274.371 1629.02 274.481 1629.25 274.601 1629.41C274.721 1629.56 274.85 1629.63 274.979 1629.63C275.258 1629.63 275.495 1629.33 275.689 1628.73C275.783 1628.45 275.858 1628.12 275.908 1627.74C275.958 1627.37 275.983 1626.96 275.981 1626.56V1613.74C275.984 1613.34 275.959 1612.93 275.909 1612.56C275.858 1612.19 275.783 1611.85 275.689 1611.58C275.498 1611 275.243 1610.69 274.979 1610.7ZM262.321 1611.6C262.415 1611.31 262.526 1611.08 262.648 1610.93C262.77 1610.77 262.9 1610.7 263.031 1610.7C263.303 1610.7 263.537 1611 263.731 1611.6C263.824 1611.87 263.899 1612.2 263.949 1612.57C264 1612.94 264.025 1613.34 264.022 1613.74V1626.56C264.025 1626.96 264.001 1627.37 263.951 1627.74C263.902 1628.11 263.828 1628.45 263.735 1628.73C263.643 1629.02 263.533 1629.25 263.412 1629.41C263.291 1629.56 263.161 1629.64 263.031 1629.63C262.9 1629.63 262.77 1629.56 262.648 1629.4C262.526 1629.25 262.415 1629.02 262.321 1628.73C262.227 1628.45 262.153 1628.12 262.102 1627.74C262.052 1627.37 262.027 1626.96 262.029 1626.56V1613.74C262.029 1612.91 262.127 1612.19 262.321 1611.6Z" fill="#ECEAEA"/>
+<g id="frame-link_8">
+<rect width="310" height="136" transform="translate(35 1227)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text-step1_6" fill="#737272" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="48" font-weight="600" letter-spacing="0em"><tspan x="45" y="1283.45">Test app on </tspan><tspan x="45" y="1341.45">hardware</tspan></text></a>
+</g>
+</g>
+<g id="step2">
+<rect id="step-rect-2" x="6" y="609" width="2612" height="551" rx="20" fill="#E2E1CF"/>
+<line id="Line 29" x1="2462.62" y1="576.8" x2="2488.33" y2="611.537" stroke="black" stroke-width="7" stroke-linecap="round"/>
+<line id="Line 30" x1="3.5" y1="-3.5" x2="46.7195" y2="-3.5" transform="matrix(-0.559675 0.828712 0.828712 0.559675 2522.71 574.771)" stroke="black" stroke-width="7" stroke-linecap="round"/>
+<g id="frame-link_9">
+<rect width="436" height="136" transform="translate(14 656)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text-step1_7" fill="#737272" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="48" font-weight="600" letter-spacing="0em"><tspan x="59.5" y="712.455">Publish app in </tspan><tspan x="59.5" y="770.455">XXX Portal</tspan></text></a>
+</g>
+<g id="frame-link_10">
+<rect width="302" height="112" transform="translate(2109 681)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text-step1_8" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="38" font-weight="600" letter-spacing="0em"><tspan x="2119" y="727.818">Register app in </tspan><tspan x="2119" y="773.818">XXX Portal</tspan></text></a>
+</g>
+<g id="frame-link_11">
+<rect width="235" height="66" transform="translate(1406 715)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text-step1_9" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="38" font-weight="600" letter-spacing="0em"><tspan x="1416" y="761.818">Publish app</tspan></text></a>
+</g>
+<g id="frame-link_12">
+<rect width="451" height="112" transform="translate(746 687)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text-step1_10" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="38" font-weight="600" letter-spacing="0em"><tspan x="756" y="733.818">Prepare App Store </tspan><tspan x="756" y="779.818">entry for your app</tspan></text></a>
+</g>
+<path id="Line 46" d="M1994.83 869L1994.83 909.5L2025.33 909.5" stroke="black"/>
+<path id="Line 47" d="M1994.83 909.5L1994.83 959.5L2025.33 959.5" stroke="black"/>
+<path id="Line 46_2" d="M1441.83 868L1441.83 908.5L1472.33 908.5" stroke="black"/>
+<path id="Line 47_2" d="M1441.83 908.5L1441.83 958.5L1472.33 958.5" stroke="black"/>
+<path id="Line 17_2" d="M2491.31 599.496L2491.31 786.373C2491.31 813.972 2468.95 836.352 2441.35 836.373L1558.27 837.069L497.63 837.904C470.208 837.926 447.921 860.029 447.671 887.45L445.122 1168" stroke="black" stroke-width="8"/>
+<rect id="Rectangle 16" x="1947" y="691" width="145" height="102" rx="9" fill="#ECEAEA" stroke="black" stroke-width="2"/>
+<rect id="Rectangle 17" x="1956" y="734" width="47" height="47" rx="5" fill="#ECEAEA" stroke="black" stroke-width="2"/>
+<a href="./example-link/"><text id="XXX Portal" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" font-weight="600" letter-spacing="0em"><tspan x="1955" y="723.272">XXX Portal</tspan></text></a>
+<line id="Line 12" x1="2016" y1="742.5" x2="2073" y2="742.5" stroke="black" stroke-width="3"/>
+<line id="Line 13" x1="2016" y1="770.5" x2="2073" y2="770.5" stroke="black" stroke-width="3"/>
+<line id="Line 14" x1="2016" y1="756.5" x2="2073" y2="756.5" stroke="black" stroke-width="3"/>
+<circle id="pin_5" cx="1995.5" cy="839.5" r="30" fill="#F2F2F2" stroke="black" stroke-width="5"/>
+<a href="./example-link/"><text id="4" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="30" letter-spacing="0em"><tspan x="1985" y="849.909">4</tspan></text></a>
+<g id="frame-link_13">
+<rect width="313" height="54" transform="translate(2033 880)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text1-4" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="28" letter-spacing="0em"><tspan x="2043" y="917.182">Register app manually</tspan></text></a>
+</g>
+<g id="frame-link_14">
+<rect width="346" height="54" transform="translate(2033 933)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text1-4_2" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="28" letter-spacing="0em"><tspan x="2043" y="970.182">Register app via XXX CLI</tspan></text></a>
+</g>
+<path id="Line 48" d="M1994.83 959.5L1994.83 1009.5L2025.33 1009.5" stroke="black"/>
+<g id="frame-link_15">
+<rect width="322" height="54" transform="translate(2033 984)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text1-4_3" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="28" letter-spacing="0em"><tspan x="2043" y="1021.18">Configure app settings</tspan></text></a>
+</g>
+<circle id="pin_6" cx="785.5" cy="839.5" r="30" fill="#F2F2F2" stroke="black" stroke-width="5"/>
+<g id="frame-link_16">
+<rect width="318" height="54" transform="translate(1481 880)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text1-4_4" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="28" letter-spacing="0em"><tspan x="1491" y="917.182">Upload APKs manually</tspan></text></a>
+</g>
+<g id="frame-link_17">
+<rect width="333" height="54" transform="translate(1481 932)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text1-4_5" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="28" letter-spacing="0em"><tspan x="1491" y="969.182">Publish app via XXX CLI</tspan></text></a>
+</g>
+<a href="./example-link/"><text id="6" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="30" letter-spacing="0em"><tspan x="775" y="849.909">6</tspan></text></a>
+<circle id="pin_7" cx="1441.5" cy="839.5" r="30" fill="#F2F2F2" stroke="black" stroke-width="5"/>
+<a href="./example-link/"><text id="5" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="30" letter-spacing="0em"><tspan x="1433" y="849.909">5</tspan></text></a>
+</g>
+<g id="step1">
+<rect id="step-rect-1" x="6" y="9" width="2612" height="560" rx="20" fill="#E7E6E2"/>
+<path id="Line 15" d="M562 235.5L847.253 235.1L2440.69 232.866C2468.34 232.827 2490.76 255.224 2490.76 282.866L2490.76 603.5" stroke="black" stroke-width="8"/>
+<g id="frame-link_18">
+<rect width="326" height="136" transform="translate(48 66)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text-step1_11" fill="#737272" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="48" font-weight="600" letter-spacing="0em"><tspan x="58" y="122.455">Develop app </tspan><tspan x="58" y="180.455">locally</tspan></text></a>
+</g>
+<g id="frame-link_19">
+<rect width="302" height="112" transform="translate(617 71)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text-step1_12" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="38" font-weight="600" letter-spacing="0em"><tspan x="627" y="117.818">Set up dev </tspan><tspan x="627" y="163.818">environment</tspan></text></a>
+</g>
+<g id="frame-link_20">
+<rect width="292" height="113" transform="translate(1382 77)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text-step1_13" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="38" font-weight="600" letter-spacing="0em"><tspan x="1405" y="124.318">Develop </tspan><tspan x="1405" y="170.318">Android app</tspan></text></a>
+</g>
+<path id="Vector_3" fill-rule="evenodd" clip-rule="evenodd" d="M531.422 168.041L524.672 170.467L531.422 172.928V178.617L522.493 173.773C518.583 171.655 518.547 169.34 522.493 167.204L531.422 162.352V168.041ZM526.127 141.287C532.627 148.274 547.35 147.044 552.787 141.287C551.427 139.74 550.168 138.114 549.02 136.418L548.27 135.376C545.603 137.101 542.444 137.996 539.225 137.938C535.607 137.964 532.099 136.752 529.332 134.521C528.591 136.64 527.547 139.553 526.458 140.945C526.363 141.062 526.252 141.166 526.127 141.253V141.287ZM551.43 153.673H499.967C499.465 153.699 498.974 153.826 498.526 154.046C498.079 154.266 497.685 154.574 497.37 154.95C497.056 155.326 496.828 155.761 496.702 156.227C496.575 156.693 496.553 157.179 496.637 157.654L499.789 180.974H491.753C491.753 168.52 487.137 153.246 500.762 145.951C505.833 143.243 518.904 142.329 524.6 138.75C525.554 136.79 526.362 134.769 527.02 132.702C527.083 132.514 526.975 132.821 527.074 132.54C525.029 130.306 523.205 127.895 521.627 125.338L516.931 118.223C515.208 115.771 514.315 113.524 514.252 111.688C514.223 110.871 514.397 110.06 514.761 109.322C515.115 108.592 515.675 107.97 516.377 107.528C516.733 107.304 517.113 107.118 517.511 106.972C517.186 102.709 517.112 98.4307 517.288 94.1589C517.396 93.1741 517.59 92.1997 517.868 91.246C519.61 85.4031 524.868 81.1319 530.904 79.133C533.832 78.1678 532.698 75.8613 535.681 76.0066C542.698 76.3739 553.537 80.6963 557.671 85.2835C563.492 91.7073 561.992 99.6175 561.796 107.493C562.396 107.645 562.942 107.951 563.374 108.376C563.807 108.802 564.11 109.333 564.251 109.911C564.626 111.329 564.251 113.328 562.957 116.053C562.957 116.053 562.957 116.147 562.876 116.198L557.519 124.629C555.457 127.884 553.359 131.139 550.564 133.65L550.421 133.77L551.314 134.966C552.207 136.273 553.296 137.759 554.278 138.921C560.1 142.338 572.894 143.311 577.903 145.977C590.402 152.657 586.144 169.152 586.831 181H578.876L582.028 157.68C582.111 157.205 582.089 156.719 581.963 156.253C581.837 155.787 581.609 155.351 581.294 154.976C580.98 154.6 580.586 154.292 580.138 154.072C579.691 153.852 579.2 153.725 578.697 153.699H551.43V153.673ZM520.181 109.074C519.355 109.068 518.541 109.271 517.824 109.663C517.531 109.851 517.297 110.111 517.145 110.415C516.981 110.796 516.907 111.208 516.931 111.619C516.976 112.986 517.726 114.772 519.172 116.83L523.868 123.98C525.752 126.842 527.734 129.763 530.181 131.907C532.605 134.172 535.864 135.433 539.252 135.418C541.013 135.449 542.763 135.145 544.4 134.523C546.037 133.902 547.528 132.975 548.787 131.796C551.323 129.524 553.314 126.423 555.287 123.314L560.573 114.977C561.564 112.824 561.921 111.38 561.698 110.543C561.564 110.039 560.983 109.791 559.992 109.74C559.778 109.74 559.564 109.74 559.35 109.74C559.103 109.728 558.855 109.728 558.609 109.74C558.472 109.757 558.334 109.757 558.198 109.74C557.714 109.761 557.23 109.735 556.751 109.663L558.537 101.975C545.091 104 535.029 94.4408 520.815 100.062L521.842 109.142C521.299 109.172 520.754 109.149 520.217 109.074H520.181ZM546.582 168.016L553.332 170.442L546.582 172.902V178.591L555.51 173.748C559.421 171.629 559.448 169.314 555.51 167.179L546.582 162.327V168.016ZM538.877 180.223H534.413L539.93 159.67H544.395L538.877 180.223Z" fill="black"/>
+<circle id="pin_8" cx="538.5" cy="236.5" r="30" fill="#F2F2F2" stroke="black" stroke-width="5"/>
+<a href="./example-link/"><text id="1" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="30" letter-spacing="0em"><tspan x="531" y="246.909">1</tspan></text></a>
+<g id="frame-link_21">
+<rect width="318" height="54" transform="translate(578 276)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text11" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="28" letter-spacing="0em"><tspan x="588" y="313.182">Get Access and Log In</tspan></text></a>
+</g>
+<g id="frame-link_22">
+<rect width="211" height="54" transform="translate(577 381.741)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text_2" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="28" letter-spacing="0em"><tspan x="587" y="418.923">Install XXX CLI</tspan></text></a>
+</g>
+<g id="frame-link_23">
+<rect width="526" height="78" transform="translate(549 435)" fill="#E1F2F2" fill-opacity="0.04"/>
+<g id="text1-3_2">
+<a href="./example-link/"><text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="28" letter-spacing="0em"><tspan x="586.5" y="467.182">Install dependencies (XX Android </tspan><tspan x="586.5" y="501.182">Studio Plug-in, Emulator)</tspan></text></a>
+<a href="./example-link/"><text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="28" font-weight="600" letter-spacing="0em"><tspan x="915.828" y="501.182"> </tspan></text></a>
+</g>
+</g>
+<g id="frame-link_24">
+<rect width="302" height="54" transform="translate(578 330)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text1-3_3" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="28" letter-spacing="0em"><tspan x="588" y="367.182">Install Android Studio</tspan></text></a>
+</g>
+<g id="frame-link_25">
+<rect width="421" height="54" transform="translate(1343 330)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text1-3_4" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="28" letter-spacing="0em"><tspan x="1353" y="367.182">Develop app acc to Guidelines</tspan></text></a>
+</g>
+<g id="frame-link_26">
+<rect width="234" height="54" transform="translate(1344 380)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text_3" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="28" letter-spacing="0em"><tspan x="1354" y="417.182">Connect to APIs</tspan></text></a>
+</g>
+<g id="frame-link_27">
+<a href="./example-link/"><text id="text11_2" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="28" letter-spacing="0em"><tspan x="1352" y="469.182">Add UI/UX widgets</tspan></text></a>
+</g>
+<g id="frame-link_28">
+<rect width="276" height="112" transform="translate(2119 77)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text-step1_14" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="38" font-weight="600" letter-spacing="0em"><tspan x="2129" y="123.818">Test app on </tspan><tspan x="2129" y="169.818">emulator</tspan></text></a>
+</g>
+<g id="frame-link_29">
+<rect width="257" height="76" transform="translate(2036 377)" fill="#E1F2F2" fill-opacity="0.04"/>
+<g id="text_4">
+<a href="./example-link/"><text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="28" letter-spacing="0em"><tspan x="2046" y="414.182">App Inspector&#x2028;</tspan></text></a>
+<a href="./example-link/"><text fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="20" letter-spacing="0em"><tspan x="2046" y="438.182">(security checks on APK)</tspan></text></a>
+</g>
+</g>
+<g id="Rectangle 12">
+<mask id="path-74-inside-1_0_1" fill="white">
+<path d="M1264 105C1264 93.9543 1272.95 85 1284 85H1341C1352.05 85 1361 93.9543 1361 105V162C1361 173.046 1352.05 182 1341 182H1284C1272.95 182 1264 173.046 1264 162V105Z"/>
+</mask>
+<path d="M1264 105C1264 93.9543 1272.95 85 1284 85H1341C1352.05 85 1361 93.9543 1361 105V162C1361 173.046 1352.05 182 1341 182H1284C1272.95 182 1264 173.046 1264 162V105Z" fill="#1D1D1D" stroke="black" stroke-width="4" mask="url(#path-74-inside-1_0_1)"/>
+</g>
+<circle id="pin_9" cx="1305.5" cy="235.5" r="30" fill="#F2F2F2" stroke="black" stroke-width="5"/>
+<a href="./example-link/"><text id="2" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="30" letter-spacing="0em"><tspan x="1296" y="245.909">2</tspan></text></a>
+<g id="frame-link_30">
+<rect width="486" height="36" transform="translate(1335 286)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text1-4_6" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="28" letter-spacing="0em"><tspan x="1352" y="314.182">Create Android app from template</tspan></text></a>
+</g>
+<g id="frame-link_31">
+<rect width="143" height="54" transform="translate(2033 278)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text1-4_7" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="28" letter-spacing="0em"><tspan x="2043" y="315.182">Build app</tspan></text></a>
+</g>
+<g id="frame-link_32">
+<rect width="295" height="54" transform="translate(2033 328)" fill="#E1F2F2" fill-opacity="0.04"/>
+<a href="./example-link/"><text id="text1-4_8" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="28" letter-spacing="0em"><tspan x="2043" y="365.182">Run app on Emulator</tspan></text></a>
+</g>
+<path id="Vector_4" d="M1321.83 104.159L1324.74 98.8831C1324.93 98.5369 1324.86 98.2689 1324.54 98.0791C1324.18 97.92 1323.9 98.0009 1323.71 98.322L1320.76 103.64C1318.17 102.505 1315.36 101.926 1312.52 101.94C1309.62 101.94 1306.87 102.504 1304.28 103.632L1301.33 98.3136C1301.14 98.0009 1300.86 97.9242 1300.51 98.0833C1300.18 98.2759 1300.11 98.5453 1300.3 98.8915L1303.21 104.164C1300.35 105.563 1297.92 107.697 1296.16 110.344C1294.44 112.912 1293.52 115.933 1293.54 119.021H1331.46C1331.46 115.88 1330.59 112.988 1328.84 110.344C1327.09 107.705 1324.67 105.572 1321.83 104.164V104.159ZM1305 111.831C1304.85 111.979 1304.68 112.096 1304.48 112.175C1304.29 112.254 1304.08 112.293 1303.87 112.291C1303.67 112.296 1303.46 112.258 1303.27 112.178C1303.08 112.099 1302.91 111.981 1302.77 111.831C1302.62 111.685 1302.51 111.513 1302.43 111.323C1302.35 111.133 1302.31 110.93 1302.31 110.725C1302.31 110.52 1302.35 110.316 1302.43 110.125C1302.5 109.935 1302.62 109.762 1302.77 109.616C1302.91 109.466 1303.08 109.347 1303.27 109.268C1303.46 109.189 1303.67 109.15 1303.87 109.155C1304.31 109.155 1304.68 109.309 1305 109.616C1305.15 109.758 1305.27 109.931 1305.35 110.122C1305.43 110.312 1305.47 110.518 1305.47 110.725C1305.47 110.932 1305.43 111.137 1305.35 111.327C1305.27 111.517 1305.15 111.688 1305 111.831ZM1322.28 111.831C1322.14 111.98 1321.97 112.098 1321.78 112.177C1321.59 112.257 1321.38 112.296 1321.18 112.291C1320.97 112.294 1320.76 112.255 1320.56 112.175C1320.37 112.096 1320.19 111.979 1320.05 111.831C1319.9 111.688 1319.78 111.517 1319.7 111.327C1319.61 111.137 1319.57 110.932 1319.58 110.725C1319.58 110.295 1319.73 109.925 1320.05 109.616C1320.19 109.467 1320.37 109.35 1320.56 109.271C1320.76 109.192 1320.97 109.152 1321.18 109.155C1321.61 109.155 1321.98 109.309 1322.28 109.616C1322.43 109.762 1322.54 109.935 1322.62 110.125C1322.7 110.316 1322.73 110.52 1322.73 110.725C1322.73 111.152 1322.58 111.521 1322.28 111.831ZM1293.54 147.286C1293.54 148.517 1293.97 149.564 1294.85 150.427C1295.72 151.281 1296.79 151.709 1298.05 151.712H1301.24L1301.29 160.849C1301.29 162.005 1301.7 162.986 1302.52 163.793C1302.9 164.182 1303.36 164.49 1303.87 164.697C1304.37 164.905 1304.92 165.007 1305.47 164.999C1306.02 165.011 1306.57 164.909 1307.09 164.702C1307.6 164.495 1308.07 164.186 1308.46 163.793C1308.86 163.413 1309.17 162.956 1309.38 162.449C1309.6 161.942 1309.7 161.398 1309.69 160.849V151.712H1315.35V160.849C1315.35 162.005 1315.76 162.986 1316.58 163.793C1316.97 164.186 1317.44 164.495 1317.95 164.702C1318.46 164.909 1319.02 165.011 1319.57 164.999C1320.13 165.011 1320.68 164.909 1321.19 164.702C1321.71 164.495 1322.17 164.186 1322.56 163.793C1322.96 163.413 1323.28 162.956 1323.49 162.449C1323.7 161.942 1323.8 161.398 1323.79 160.849V151.712H1327C1328.22 151.712 1329.27 151.282 1330.15 150.423C1331.02 149.565 1331.46 148.519 1331.46 147.282V120.465H1293.54V147.286ZM1337.76 119.703C1337.22 119.693 1336.68 119.791 1336.17 119.991C1335.66 120.191 1335.2 120.489 1334.81 120.867C1334.41 121.23 1334.09 121.674 1333.88 122.169C1333.66 122.663 1333.56 123.198 1333.57 123.736V140.749C1333.57 141.883 1333.98 142.846 1334.81 143.639C1335.19 144.024 1335.65 144.328 1336.16 144.532C1336.67 144.736 1337.22 144.837 1337.76 144.828C1338.94 144.828 1339.94 144.432 1340.76 143.639C1341.16 143.27 1341.48 142.823 1341.69 142.325C1341.9 141.827 1342.01 141.29 1342 140.749V123.736C1342.01 123.198 1341.91 122.663 1341.69 122.169C1341.48 121.674 1341.16 121.23 1340.76 120.867C1339.96 120.1 1338.88 119.681 1337.76 119.703ZM1284.24 120.888C1284.63 120.504 1285.1 120.202 1285.62 119.999C1286.13 119.796 1286.68 119.695 1287.24 119.703C1288.39 119.703 1289.37 120.098 1290.19 120.888C1290.59 121.249 1290.91 121.689 1291.12 122.18C1291.33 122.671 1291.44 123.201 1291.43 123.736V140.749C1291.44 141.288 1291.34 141.823 1291.13 142.321C1290.92 142.818 1290.61 143.267 1290.22 143.639C1289.83 144.027 1289.36 144.332 1288.85 144.536C1288.34 144.741 1287.79 144.84 1287.24 144.828C1286.68 144.836 1286.13 144.735 1285.62 144.53C1285.1 144.326 1284.63 144.023 1284.24 143.639C1283.84 143.27 1283.52 142.823 1283.31 142.325C1283.1 141.827 1282.99 141.29 1283 140.749V123.736C1283 122.63 1283.41 121.681 1284.24 120.888Z" fill="#ECEAEA"/>
+<circle id="pin_10" cx="1995.5" cy="235.5" r="30" fill="#F2F2F2" stroke="black" stroke-width="5"/>
+<a href="./example-link/"><text id="3" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="30" letter-spacing="0em"><tspan x="1985" y="245.909">3</tspan></text></a>
+<rect id="Rectangle 19" x="1945" y="86" width="145" height="102" rx="9" fill="#ECEAEA" stroke="black" stroke-width="2"/>
+<g id="Rectangle 20">
+<mask id="path-84-inside-2_0_1" fill="white">
+<path d="M1953 102C1953 97.5817 1956.58 94 1961 94H1997C2001.42 94 2005 97.5817 2005 102V138C2005 142.418 2001.42 146 1997 146H1961C1956.58 146 1953 142.418 1953 138V102Z"/>
+</mask>
+<path d="M1953 102C1953 97.5817 1956.58 94 1961 94H1997C2001.42 94 2005 97.5817 2005 102V138C2005 142.418 2001.42 146 1997 146H1961C1956.58 146 1953 142.418 1953 138V102Z" fill="#1D1D1D" stroke="black" stroke-width="4" mask="url(#path-84-inside-2_0_1)"/>
+</g>
+<path id="Vector_5" d="M1984.06 104.309L1985.64 101.474C1985.74 101.288 1985.71 101.145 1985.53 101.043C1985.33 100.957 1985.18 101.001 1985.08 101.173L1983.48 104.03C1982.07 103.421 1980.55 103.109 1979.01 103.117C1977.44 103.117 1975.95 103.42 1974.54 104.026L1972.94 101.169C1972.84 101.001 1972.69 100.959 1972.49 101.045C1972.32 101.148 1972.28 101.293 1972.38 101.479L1973.96 104.312C1972.41 105.064 1971.09 106.21 1970.14 107.633C1969.2 109.012 1968.71 110.636 1968.71 112.295H1989.29C1989.29 110.607 1988.81 109.053 1987.86 107.633C1986.91 106.214 1985.6 105.069 1984.06 104.312V104.309ZM1974.93 108.431C1974.85 108.511 1974.76 108.574 1974.65 108.616C1974.55 108.659 1974.43 108.68 1974.32 108.679C1974.21 108.682 1974.1 108.661 1973.99 108.618C1973.89 108.576 1973.8 108.512 1973.72 108.431C1973.64 108.353 1973.58 108.261 1973.54 108.159C1973.5 108.057 1973.47 107.947 1973.48 107.837C1973.47 107.727 1973.49 107.618 1973.54 107.515C1973.58 107.413 1973.64 107.32 1973.72 107.241C1973.8 107.161 1973.89 107.097 1973.99 107.054C1974.1 107.012 1974.21 106.991 1974.32 106.994C1974.56 106.994 1974.76 107.076 1974.93 107.241C1975.01 107.318 1975.08 107.41 1975.12 107.513C1975.17 107.616 1975.19 107.726 1975.19 107.837C1975.19 107.948 1975.17 108.058 1975.12 108.161C1975.08 108.263 1975.01 108.355 1974.93 108.431ZM1984.3 108.431C1984.23 108.512 1984.14 108.575 1984.03 108.618C1983.93 108.66 1983.82 108.681 1983.71 108.679C1983.59 108.68 1983.48 108.659 1983.37 108.617C1983.27 108.574 1983.17 108.511 1983.09 108.431C1983.01 108.355 1982.95 108.263 1982.9 108.161C1982.86 108.058 1982.84 107.948 1982.84 107.837C1982.84 107.606 1982.92 107.408 1983.09 107.241C1983.17 107.162 1983.27 107.099 1983.37 107.056C1983.48 107.013 1983.59 106.992 1983.71 106.994C1983.94 106.994 1984.14 107.076 1984.3 107.241C1984.38 107.32 1984.45 107.413 1984.49 107.515C1984.53 107.618 1984.55 107.727 1984.55 107.837C1984.55 108.067 1984.47 108.265 1984.3 108.431ZM1968.71 127.482C1968.71 128.144 1968.95 128.706 1969.43 129.17C1969.9 129.629 1970.48 129.859 1971.16 129.86H1972.89L1972.92 134.77C1972.92 135.391 1973.14 135.918 1973.59 136.352C1973.79 136.561 1974.04 136.726 1974.32 136.837C1974.59 136.949 1974.89 137.004 1975.19 137C1975.49 137.006 1975.79 136.951 1976.06 136.84C1976.34 136.729 1976.6 136.562 1976.81 136.352C1977.02 136.147 1977.19 135.902 1977.31 135.629C1977.42 135.357 1977.48 135.064 1977.48 134.77V129.86H1980.55V134.77C1980.55 135.391 1980.77 135.918 1981.21 136.352C1981.42 136.562 1981.68 136.729 1981.96 136.84C1982.24 136.951 1982.53 137.006 1982.84 137C1983.14 137.006 1983.44 136.951 1983.71 136.84C1983.99 136.729 1984.25 136.562 1984.46 136.352C1984.67 136.147 1984.84 135.902 1984.96 135.629C1985.07 135.357 1985.13 135.064 1985.13 134.77V129.86H1986.86C1987.53 129.86 1988.1 129.629 1988.57 129.167C1989.05 128.707 1989.28 128.144 1989.29 127.48V113.071H1968.71V127.482ZM1992.7 112.661C1992.41 112.656 1992.11 112.709 1991.84 112.816C1991.56 112.923 1991.31 113.083 1991.1 113.287C1990.88 113.482 1990.71 113.72 1990.59 113.986C1990.48 114.252 1990.42 114.539 1990.43 114.828V123.97C1990.43 124.579 1990.65 125.096 1991.1 125.522C1991.31 125.729 1991.56 125.893 1991.83 126.002C1992.11 126.112 1992.41 126.166 1992.7 126.161C1993.34 126.161 1993.88 125.948 1994.33 125.522C1994.55 125.324 1994.72 125.084 1994.83 124.816C1994.95 124.549 1995 124.26 1995 123.97V114.828C1995.01 114.539 1994.95 114.252 1994.83 113.986C1994.72 113.72 1994.55 113.482 1994.33 113.287C1993.89 112.875 1993.31 112.65 1992.7 112.661ZM1963.67 113.298C1963.89 113.092 1964.14 112.93 1964.42 112.82C1964.7 112.711 1965 112.657 1965.3 112.661C1965.92 112.661 1966.46 112.874 1966.9 113.298C1967.12 113.492 1967.29 113.728 1967.4 113.992C1967.52 114.256 1967.58 114.541 1967.57 114.828V123.97C1967.58 124.259 1967.52 124.547 1967.41 124.814C1967.29 125.081 1967.13 125.323 1966.91 125.522C1966.7 125.731 1966.45 125.895 1966.17 126.005C1965.89 126.114 1965.6 126.168 1965.3 126.161C1965 126.165 1964.7 126.111 1964.42 126.001C1964.14 125.892 1963.89 125.729 1963.67 125.522C1963.45 125.324 1963.28 125.084 1963.17 124.816C1963.05 124.549 1963 124.26 1963 123.97V114.828C1963 114.234 1963.22 113.724 1963.67 113.298Z" fill="#ECEAEA"/>
+<a href="./example-link/"><text id="CVD Emulator" fill="black" style="white-space: pre" xml:space="preserve" font-family="Inter" font-size="12" font-weight="600" letter-spacing="0em"><tspan x="2006" y="182.121">CVD Emulator</tspan></text></a>
+<path id="Vector_6" d="M1980.97 167.836C1981.05 167.79 1981.14 167.761 1981.24 167.75C1981.33 167.74 1981.42 167.749 1981.52 167.776C1981.61 167.803 1981.69 167.848 1981.76 167.908C1981.84 167.969 1981.9 168.043 1981.94 168.128L1983.79 171.561C1985.29 170.964 1986.89 170.661 1988.5 170.666C1990.11 170.661 1991.71 170.964 1993.21 171.561L1995.06 168.128C1995.1 168.041 1995.16 167.964 1995.23 167.901C1995.31 167.839 1995.39 167.792 1995.48 167.763C1995.58 167.734 1995.67 167.724 1995.77 167.734C1995.86 167.744 1995.96 167.773 1996.04 167.819C1996.12 167.866 1996.2 167.929 1996.26 168.005C1996.32 168.081 1996.36 168.169 1996.39 168.263C1996.41 168.356 1996.42 168.455 1996.41 168.551C1996.4 168.648 1996.37 168.741 1996.32 168.825L1994.52 172.176C1997.81 173.975 2000 177.203 2000 180.886H1977C1977 177.203 1979.19 173.975 1982.48 172.176L1980.68 168.827C1980.59 168.657 1980.57 168.457 1980.62 168.272C1980.68 168.086 1980.8 167.928 1980.97 167.836ZM1984.19 177.966C1984.57 177.966 1984.93 177.812 1985.2 177.539C1985.47 177.265 1985.62 176.893 1985.62 176.506C1985.62 176.119 1985.47 175.748 1985.2 175.474C1984.93 175.2 1984.57 175.046 1984.19 175.046C1983.81 175.046 1983.44 175.2 1983.17 175.474C1982.9 175.748 1982.75 176.119 1982.75 176.506C1982.75 176.893 1982.9 177.265 1983.17 177.539C1983.44 177.812 1983.81 177.966 1984.19 177.966ZM1992.81 177.966C1993.19 177.966 1993.56 177.812 1993.83 177.539C1994.1 177.265 1994.25 176.893 1994.25 176.506C1994.25 176.119 1994.1 175.748 1993.83 175.474C1993.56 175.2 1993.19 175.046 1992.81 175.046C1992.43 175.046 1992.07 175.2 1991.8 175.474C1991.53 175.748 1991.38 176.119 1991.38 176.506C1991.38 176.893 1991.53 177.265 1991.8 177.539C1992.07 177.812 1992.43 177.966 1992.81 177.966Z" fill="black"/>
+<path id="Line 38" d="M1305 263L1305 303.5L1335.5 303.5" stroke="black"/>
+<path id="Line 39" d="M1305 303.5L1305 353.5L1335.5 353.5" stroke="black"/>
+<path id="Line 40" d="M1305 368L1305 408.5L1335.5 408.5" stroke="black"/>
+<path id="Line 41" d="M1305 352L1305 455.5L1335.5 455.5" stroke="black"/>
+<path id="Line 42" d="M539 264L539 304.5L569.5 304.5" stroke="black"/>
+<path id="Line 43" d="M539 304.5L539 354.5L569.5 354.5" stroke="black"/>
+<path id="Line 44" d="M539 365L539 405.5L569.5 405.5" stroke="black"/>
+<path id="Line 45" d="M539 353L539 456.5L569.5 456.5" stroke="black"/>
+<path id="Line 46_3" d="M1995 263L1995 303.5L2025.5 303.5" stroke="black"/>
+<path id="Line 47_3" d="M1995 303.5L1995 353.5L2025.5 353.5" stroke="black"/>
+<path id="Line 48_2" d="M1995 353.5L1995 404.5L2025.5 404.5" stroke="black"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="73" height="73" fill="white" transform="translate(2303 1408)"/>
+</clipPath>
+</defs>
+</svg>
+
+
+  </main>
+</body>
+</html>
