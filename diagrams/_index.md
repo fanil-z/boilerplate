@@ -19,6 +19,9 @@ svg#journey {
     max-width: 1040px !important;
     margin-left: 0;
   }
+svg#journey text {
+    font-family: "Avenir Next", "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif !important;
+}
   g[id^="frame-link"]:hover text {
     fill: rgb(255, 255, 255);
     transform: matrix(1, 0, 0, 1, 0, 0);
